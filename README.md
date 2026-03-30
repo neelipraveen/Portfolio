@@ -3,7 +3,7 @@
   <a href="https://neelipraveen.vercel.app/" target="_blank">neelipraveen.vercel.app</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img.png" />
+  <img alt="Demo" src="./Images/readme_image.png" />
 </div>
 
 <br/>
