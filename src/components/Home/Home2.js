@@ -13,38 +13,34 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m an M.Tech Data Science student who loves transforming complex data into 
+              reliable, scalable intelligent systems. Over time, I’ve explored several 
+              architectures and found my passion in building high-performance Big Data 
+              pipelines and advanced Deep Learning models.
               <br />
               <br />
-              I’m proficient in
+              I’m highly proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  Python, SQL ,Data Science and Big Data tools like Apache Spark and Hadoop.{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
               <br />
               <br />
               My key areas of interest include developing
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Deep Learning Architectures, Big Data Pipelines,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              and exploring new ways to bridge the gap between complex algorithms and real-world clinical or industrial applications.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              Whenever possible, I love building end-to-end projects with
+              <b className="purple"> TensorFlow </b> and <b className="purple"> PyTorch</b>, 
+              along with modern data engineering frameworks to create state-of-the-art ML solutions.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

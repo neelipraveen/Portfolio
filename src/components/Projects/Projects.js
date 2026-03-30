@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+// NOTE: I am keeping the original variable names so your code doesn't crash. 
+// You just need to replace the actual images in the src/Assets/Projects folder with your own screenshots!
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
@@ -18,17 +20,17 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few Data Science and Big Data projects I've engineered recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={leaf}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="3D CT Imaging Classification"
+              description="Engineered a segmentation-guided deep learning framework to detect cervical spine fractures in 3D CT scans. Evaluated 8 state-of-the-art architectures including MViT and Swin Transformers. Published at the 6th International Conference on Recent Advances in Information Technology (RAIT 2025)."
+              ghLink="https://github.com/neelipraveen/3D-CT-Classification"
             />
           </Col>
 
@@ -36,10 +38,19 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Real-Time Big Data Anomaly Detection"
+              description="Architected a distributed pipeline using Apache Flume, HDFS, and PySpark to process 67 concurrent data streams. Engineered a novel Attention-augmented Deep Learning model (CNN + BiLSTM + Self-Attention) with a leakage-free EWMA dynamic thresholding strategy."
+              ghLink="https://github.com/neelipraveen/Anomaly-Detection-BigData"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Stabilizer V2: Heart Disease Prediction"
+              description="Developed the Stabilizer V2 Protocol by merging FT-Transformers with Gated Residual Networks (GRN). Leveraged TVAE-based data augmentation to expand clinical data. Integrated Monte Carlo Dropout for predictive uncertainty quantification and utilized SHAP for clinical transparency."
+              ghLink="https://github.com/neelipraveen/Stabilizer-V2"
             />
           </Col>
 
@@ -47,32 +58,19 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Boston Housing PySpark Pipeline"
+              description="End-to-end distributed ML pipeline simulating real-time data ingestion with Flume and Kafka. Processes data via PySpark and Hadoop to deliver near-perfect median house price forecasting using Random Forest Regressors, achieving an R-squared of 0.999."
+              ghLink="https://github.com/neelipraveen/Boston-House-BigData"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={suicide} 
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Automated Blood Group Detection"
+              description="Engineered a Computer Vision and Deep Learning framework to automate the classification of blood types (A, B, AB, O, and Rh factor) from slide agglutination tests. Utilized OpenCV for image preprocessing and Convolutional Neural Networks (CNNs) for rapid, high-accuracy hematological diagnostics."
+              ghLink="https://github.com/neelipraveen/Blood-Group-detection"
             />
           </Col>
 
@@ -80,13 +78,12 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Apache Spark (Open Source)"
+              description="Actively studying the core architecture of Apache Spark, focusing on distributed data processing, resilient distributed datasets (RDDs), and PySpark optimization techniques for massive-scale data engineering."
+              ghLink="https://github.com/neelipraveen/spark"
             />
           </Col>
+
         </Row>
       </Container>
     </Container>
