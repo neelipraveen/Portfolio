@@ -7,6 +7,10 @@ import Type from "./Type";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+// NEW: Importing your other sections for continuous scrolling!
+import About from "../About/About";
+import Projects from "../Projects/Projects";
+
 function Home() {
   return (
     <section>
@@ -44,6 +48,15 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+
+      {/* NEW: Continuous Flow Sections */}
+      <div id="about">
+        <About />
+      </div>
+      
+      <div id="project">
+        <Projects />
+      </div>
 
       <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
