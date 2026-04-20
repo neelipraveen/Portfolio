@@ -29,7 +29,7 @@ function Projects() {
               isBlog={false}
               title="3D CT Imaging Classification"
               description="Engineered a segmentation-guided deep learning framework to detect cervical spine fractures in 3D CT scans. Evaluated 8 state-of-the-art architectures including MViT and Swin Transformers. Published at the 6th International Conference on Recent Advances in Information Technology (RAIT 2025)."
-              ghLink="https://github.com/neelipraveen/3D-CT-Classification"
+              ghLink="https://github.com/neelipraveen/cervical-spine-fracture-detection"
             />
           </Col>
 
@@ -39,7 +39,7 @@ function Projects() {
               isBlog={false}
               title="Real-Time Big Data Anomaly Detection"
               description="Architected a distributed pipeline using Apache Flume, HDFS, and PySpark to process 67 concurrent data streams. Engineered a novel Attention-augmented Deep Learning model (CNN + BiLSTM + Self-Attention) with a leakage-free EWMA dynamic thresholding strategy."
-              ghLink="https://github.com/neelipraveen/Anomaly-Detection-BigData"
+              ghLink="https://github.com/neelipraveen/Big_data-Yahoo"
             />
           </Col>
 
@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="Stabilizer V2: Heart Disease Prediction"
               description="Developed the Stabilizer V2 Protocol by merging FT-Transformers with Gated Residual Networks (GRN). Leveraged TVAE-based data augmentation to expand clinical data. Integrated Monte Carlo Dropout for predictive uncertainty quantification and utilized SHAP for clinical transparency."
-              ghLink="https://github.com/neelipraveen/Stabilizer-V2"
+              ghLink="https://github.com/neelipraveen/Heart_disease"
             />
           </Col>
 
@@ -59,7 +59,7 @@ function Projects() {
               isBlog={false}
               title="Boston Housing PySpark Pipeline"
               description="End-to-end distributed ML pipeline simulating real-time data ingestion with Flume and Kafka. Processes data via PySpark and Hadoop to deliver near-perfect median house price forecasting using Random Forest Regressors, achieving an R-squared of 0.999."
-              ghLink="https://github.com/neelipraveen/Boston-House-BigData"
+              ghLink="https://github.com/neelipraveen/boston_house_bigdata"
             />
           </Col>
 
